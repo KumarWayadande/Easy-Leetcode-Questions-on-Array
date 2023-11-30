@@ -24,13 +24,7 @@ class Solution {
                     }
                 }
 
-                // if(lowPrice == 0 && highPrice == 1)
-                //     return (highPrice - lowPrice);
-                // else
-                //     if(lowPrice == 0)
-                //         return ((highPrice - lowPrice) + 1);
-                //     else
-                //         return ((highPrice - lowPrice));
+                
 
                 return (highPrice - lowPrice);
 
@@ -42,7 +36,6 @@ int main(){
 
     Solution s;
     vector<int> vec{3,2,6,5,0,3};
-    {2,1,2,0,1};
     int profit = s.maxProfit(vec);
 
     if(profit == 0){
