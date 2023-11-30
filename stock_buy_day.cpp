@@ -89,17 +89,30 @@
 //     {2,1,2,0,1};
 //     int profit = s.maxProfit(vec);
 
-//     if(profit == 0){
-//         cout << "\nNo profit";
-//     }
-//     else{
-//         cout << "\nProfit Earned : " << profit;
-//     }
-// };
+//     // cout << "\nProfit : " << profit;
+//     cout << "\n Length : " << stockPrices.size();
 
-#include<iostream>
-using namespace std;
-int main(){
+//     return 0;
+// }
 
-    return 0;
-}
+
+
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int lsf = INT_MAX;
+        int op = 0;
+        int pist = 0;
+        
+        for(int i = 0; i < prices.size(); i++){
+            if(prices[i] < lsf){
+                lsf = prices[i];
+            }
+            pist = prices[i] - lsf;
+            if(op < pist){
+                op = pist;
+            }
+        }
+        return op;
+    }
+};
