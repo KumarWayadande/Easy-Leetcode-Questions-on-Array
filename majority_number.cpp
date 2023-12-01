@@ -66,7 +66,11 @@ int main()
 
 
 /*
-
+--------------------------------------
+Code Version : 1
+Author : Kumar Wayadande
+Upgraded Version ? yes
+--------------------------------------
 */
 class Solution
 {
@@ -94,3 +98,11 @@ public:
         return majorityNumber;
     }
 };
+
+/*
+--------------------------------------
+Code Version : 1
+Author : Kumar Wayadande
+Upgraded Version ? yes
+--------------------------------------
+*/
