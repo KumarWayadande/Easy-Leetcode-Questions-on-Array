@@ -1,3 +1,11 @@
+/*
+--------------------------------------
+Code Version : 1
+Author : Kumar Wayadande
+Upgraded Version ? yes
+Test Cases : Not passed
+--------------------------------------
+*/
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -63,15 +71,24 @@ int main()
     return 0;
 }
 
+/*
+--------------------------------------
+End of code version 1
+test cases not passed
+--------------------------------------
+*/
+
+
 
 
 /*
 --------------------------------------
-Code Version : 1
+Code Version : 2
 Author : Kumar Wayadande
 Upgraded Version ? yes
+Test Cases : all passed
 --------------------------------------
-*/
+
 class Solution
 {
 public:
@@ -99,10 +116,7 @@ public:
     }
 };
 
-/*
---------------------------------------
-Code Version : 1
-Author : Kumar Wayadande
-Upgraded Version ? yes
---------------------------------------
+---------------------------------
+End of code version 2
+all test cases passed
 */
