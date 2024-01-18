@@ -1,5 +1,5 @@
 Difficulty level : Easy
-Number of Questions Solved on Array : 30
+Number of Questions Solved on Array : 32
 Target : 300
 
 

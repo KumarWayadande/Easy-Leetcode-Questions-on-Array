@@ -1,3 +1,13 @@
+/*
+--------------------------------------
+Code Version : 1
+Author : Kumar Wayadande
+Upgraded Version ? No
+Test Cases : all test cases passed
+Worked in vscode ?  Yes
+--------------------------------------
+*/
+
 #include<iostream>
 #include<map>
 #include<algorithm>
@@ -50,3 +60,12 @@ int main(){
 
     return 0;
 }
+
+
+
+/*
+--------------------------------------
+End of code version 1
+All test cases passed
+--------------------------------------
+*/
