@@ -5,9 +5,16 @@ using namespace std;
 
 int main(){
 
-    vector<string> str = {"1"};
+    // int n = 7;
+    // for(int i = 1; i <= 20; i++)
+    //     cout << endl << i << " % " << n << " = " << (i % n);
 
-    cout << stoi(str[0]);
+    // vector<int> vec(10);
+
+    // for(auto x : vec){
+    //     if(x[0] != -1 && x[1] != -1)
+    //         cout << "Found";
+    // }
 
     return 0;
 }
