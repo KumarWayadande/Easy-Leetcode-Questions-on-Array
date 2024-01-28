@@ -9,3 +9,7 @@ Difficult Problems
 2] assign_cookies.cpp
 3] island_perimeter.cpp
 4] teemo_attacking.cpp
+
+-------------------------
+Pending Problems
+1] toeplitz_matrix.cpp
