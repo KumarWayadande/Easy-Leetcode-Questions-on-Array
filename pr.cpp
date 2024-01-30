@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string>
 #include<vector>
+#include<set>
 using namespace std;
 
 int main(){
@@ -18,5 +19,19 @@ int main(){
 
     // cout << (6 < 7);
 
+
+    // set<string> str;
+
+    // str.insert("Kumar");
+    // str.insert("Kumar");
+    // str.insert("Kumar");
+    // str.insert("Kumar");
+    // str.insert("Kumar1");
+
+    // cout << "Length : " << str.size();
+
+
+
     return 0;
+
 }
