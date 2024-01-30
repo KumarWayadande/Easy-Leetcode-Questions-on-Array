@@ -1,5 +1,5 @@
 Difficulty level : Easy
-Number of Questions Solved on Array : 43
+Number of Questions Solved on Array : 44
 Target : 300
 
 
@@ -9,7 +9,8 @@ Difficult Problems
 2] assign_cookies.cpp
 3] island_perimeter.cpp
 4] teemo_attacking.cpp
+5] toeplitz_matrix.cpp
 
 -------------------------
 Pending Problems
-1] toeplitz_matrix.cpp
+None

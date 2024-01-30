@@ -1,5 +1,12 @@
-// To be solved
-
+/*
+--------------------------------------
+Code Version : 1
+Author : Kumar Wayadande
+Upgraded Version ? No
+Test Cases : all test cases passed
+Worked in vscode ?  Yes
+--------------------------------------
+*/
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -10,57 +17,41 @@ public:
     bool isToeplitzMatrix(vector<vector<int>> &matrix)
     {
         int row = matrix.size();
-        int col = matrix[0].size();
-
-        if(row == 1)
+        int col = matrix[0].size(), k = 0;
+ 
+        if(row == 1 || col == 1)
             return true;
 
-        int number = matrix[0][0];
-        for (int i = 0; i < row - 1; i++)
-        {
-            cout << "\nNumber : " << number <<endl;
-            for (int j = i; j < row; j++)
-            {
-                // cout << "a[" << j << "][" << (j - i) << "]";
-                cout << "\nNumber being Compared : " << matrix[j][j - i];
-                cout << "\nNumber to    Compared : " << number;
-                if (matrix[j][j - i] != number)
+        for(int i = 0; i < (row - 1); i++){
+            int j = i;
+            k = 0;
+            int number = matrix[j][k];
+            while(j < row && k < col){
+                if(matrix[j++][k++] != number)
                     return false;
             }
-            number = matrix[i+1][0];
-            cout << endl;
         }
 
-        for (int i = 0; i < (col - 2); i++)
-        {
-            int number = matrix[0][i + 1];
-            int k = 0;
-            for (int j = i+1; j < col-1; j++)
-            {
-                cout << "\nNumber being Compared : " << matrix[k][j];
-                cout << "\nNumber to    Compared : " << number;
-                if(matrix[k][j] != number)
+       for(int i = 1; i <= (col - 1); i++){
+            int j = i;
+            k = 0;
+            int number = matrix[k][j];
+            while(k < row && j < col){
+                if(matrix[k++][j++] != number)
                     return false;
-                k++;
             }
-            cout << endl;
-        }
-
+       }
         return true;
     }
 };
 
 int main()
 {
-    // vector<vector<int>> nums = {
-    //     {1, 2, 3, 4},
-    //     {5, 1, 2, 3},
-    //     {9, 5, 2, 1},
-    //     {9, 5, 2, 1}
-    // };
-
     vector<vector<int>> nums = {
-        {11,74,0,93},{40,11,74,7}
+        {1, 2, 3, 4},
+        {5, 1, 2, 3},
+        {9, 5, 1, 2},
+        {9, 9, 5, 1}
     };
     Solution s;
 
@@ -75,3 +66,12 @@ int main()
 
     return 0;
 }
+
+
+
+/*
+--------------------------------------
+End of code version 1
+All test cases passed
+--------------------------------------
+*/
