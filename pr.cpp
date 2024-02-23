@@ -33,6 +33,30 @@ int main(){
 
     // cout << ('c' - 'a');
 
+
+    // string str = "Bob hit a ball, the hit BALL flew far after it was hit.";
+   
+    // int startingIndex = 0;
+    // for(char ch : str){
+    //     if(str == " ")
+    //         startingIndex++;
+    //     else
+    //         break;
+    // }
+
+    // string str1 = "";
+    // for(int i = startingIndex; i < str.length(); i++){
+    //     char ch = str[i];
+    //     if(ch >= 65 && ch <= 90 || ch >= 97 && ch <= 122)
+    //         str1 += ch;
+    //     else{
+    //         if(str1 != ""){
+                
+    //         }
+    //         str1 = "";
+    //     }
+    // }
+
     return 0;
 
 }
