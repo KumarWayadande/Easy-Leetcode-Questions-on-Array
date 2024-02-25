@@ -1,5 +1,5 @@
 Difficulty level : Easy
-Number of Questions Solved on Array : 49
+Number of Questions Solved on Array : 50
 Target : 300
 
 
@@ -14,3 +14,9 @@ Difficult Problems
 -------------------------
 Pending Problems
 None
+
+-------------------------
+Half Century Details
+Date : 25/February/2024
+Day  : Sunday
+Question solved : Transpose of matrix
