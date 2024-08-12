@@ -1,5 +1,5 @@
 Difficulty level : Easy
-Number of Questions Solved on Array : 50
+Number of Questions Solved on Array : 51
 Target : 300
 
 
@@ -20,3 +20,6 @@ Half Century Details
 Date : 25/February/2024
 Day  : Sunday
 Question solved : Transpose of matrix
+-------------------------
+New Starting date 
+Date : 12 August 2024
