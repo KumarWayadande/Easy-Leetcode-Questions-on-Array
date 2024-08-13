@@ -5,6 +5,7 @@ Author : Kumar Wayadande
 Upgraded Version ? No
 Test Cases :
 Worked in vscode ?  Yes
+Alogrithm : Kadane's algorithm
 --------------------------------------
 */
 
@@ -87,3 +88,10 @@ int main()
 
     return 0;
 }
+
+/*
+--------------------------------------
+End of code version 1
+All test cases passed
+--------------------------------------
+*/
